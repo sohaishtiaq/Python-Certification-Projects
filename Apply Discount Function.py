@@ -1,4 +1,4 @@
-ef apply_discount(price, discount):
+def apply_discount(price, discount):
     if not isinstance(price, (int, float)):
         return 'The price should be a number'
     
